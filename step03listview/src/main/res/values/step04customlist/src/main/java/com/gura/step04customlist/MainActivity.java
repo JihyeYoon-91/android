@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
 
         //어댑터 객체 생성
         adapter=new CountryAdapter(this, //컨트리어뎁터는 베이스어뎁터를 상속받았기에 가능하다.
-                R.layout.listview_cell,countries);
+                R.layout.listview_cell,countries); //list 입장에서 adapter는 cell view의 공급자
         //어댑터를 ListView에 연결하기
         listView.setAdapter(adapter);
         //ListView에 아이템 클릭 리스너 등록하기
