@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../My Android.iml" filepath="$PROJECT_DIR$/../My Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../step01layout/step01layout.iml" filepath="$PROJECT_DIR$/../step01layout/step01layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../step02activity/step02activity.iml" filepath="$PROJECT_DIR$/../step02activity/step02activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../step03listview/step03listview.iml" filepath="$PROJECT_DIR$/../step03listview/step03listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step04customlist.iml" filepath="$PROJECT_DIR$/step04customlist.iml" />
+    </modules>
+  </component>
+</project>
