@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gura.step12sharedpref.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" /> <!-- never: 메뉴눌러야만 나오게 always: 항상 메뉴밖으로-->
+    <item android:id="@+id/finish"
+        android:orderInCategory="0"
+        android:title="@string/title_activity_finish"
+        app:showAsAction="never"/>
+    <item android:id="@+id/start"
+        android:orderInCategory="1"
+        android:title="@string/title_activity_start"
+        app:showAsAction="ifRoom"/> <!--ifRoom:만일 공간이 있으면 itembar에 노출시킨다-->
+</menu>
